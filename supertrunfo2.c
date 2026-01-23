@@ -116,5 +116,36 @@ int main() {
     printf("PIB per capita: %d\n", PIBCap > PIBcap2);
     printf("Super Poder: %d\n", superpoder > superpoder2);
 
+
+    printf("População:\n");
+    printf("Carta 1 - %s: %lu\n", nomedacidade, populacao);
+    printf("Carta 2 - %s: %lu\n", nomedacidade2, populacao2);
+    
+    if(populacao > populacao2) {
+        printf("A carta 1 venceu! ");
+    }
+    else {
+        printf("A carta 2 venceu!\n");
+    }
+    printf("Área: \n");
+    printf("Carta 1 - %s: %d\n", nomedacidade, area);
+    printf("Carta 2 - %s: %d\n", nomedacidade2, area2);
+    
+    if(area > area2) {
+        printf("Carta 1 venceu!\n");
+    }
+    else {
+        printf("Carta 2 venceu!\n");
+    }
+    printf("PIB: \n")
+    printf("Carta 1 - %s: %d", nomedacidade, PIB)
+    printf("Carta 2 - %s: %d", nomedacidade2, PIB2)
+    
+    if(PIB > PIB2) {
+        printf("Carta 1 venceu!\n");
+    }
+    else {
+        printf("Carta 2 venceu!\n");
+    }
     return 0;
 }
